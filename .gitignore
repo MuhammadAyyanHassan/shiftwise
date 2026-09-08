@@ -1,0 +1,35 @@
+# Backend build files
+backend/build/
+backend/CMakeFiles/
+backend/cmake_install.cmake
+backend/CMakeCache.txt
+backend/shiftwise
+
+# Abandoned backend-node directory
+backend-node/
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.production.local
+frontend/.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+package-lock.json
+yarn.lock
